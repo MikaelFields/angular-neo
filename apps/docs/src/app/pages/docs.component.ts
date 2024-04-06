@@ -1,11 +1,12 @@
 import { Component } from '@angular/core';
-import { ButtonComponent } from '@angular-neo/button';
+import { CardComponent, ButtonComponent } from '@angular-neo/elements';
 
 @Component({
   selector: 'doc-docs',
   standalone: true,
   imports: [
-    ButtonComponent
+    ButtonComponent,
+    CardComponent
   ],
   templateUrl: './docs.component.html',
 })
