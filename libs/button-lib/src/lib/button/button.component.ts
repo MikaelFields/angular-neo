@@ -36,6 +36,4 @@ const button = tv({
 })
 export class ButtonComponent {
   buttonClasses: any = button;
-
-
 }

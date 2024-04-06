@@ -15,7 +15,9 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@angular-neo/button": ["libs/button-lib/src/index.ts"]
+      "@angular-neo/button": ["libs/button-lib/src/index.ts"],
+      "@angular-neo/card": ["libs/card-lib/src/index.ts"],
+      "@angular-neo/elements": ["libs/elements-lib/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

@@ -1,12 +1,12 @@
 {
-  "name": "@angular-neo/button",
+  "name": "@angular-neo/card",
   "version": "0.0.1",
   "peerDependencies": {
     "@angular/common": "^17.3.0",
     "@angular/core": "^17.3.0"
   },
   "author": "Michael Campos Acuna",
-  "description": "Button standalone component for Angular",
+  "description": "Card standalone component for Angular",
   "private": false,
   "dependencies": {
     "tslib": "^2.3.0"
