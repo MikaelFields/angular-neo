@@ -15,9 +15,10 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@angular-neo/button": ["libs/button-lib/src/index.ts"],
-      "@angular-neo/card": ["libs/card-lib/src/index.ts"],
-      "@angular-neo/elements": ["libs/elements-lib/src/index.ts"]
+      "@angular-neo/neo-button": ["libs/components/button-lib/src/index.ts"],
+      "@angular-neo/neo-card": ["libs/components/card-lib/src/index.ts"],
+      "@angular-neo/neo-elements": ["libs/core/elements-lib/src/index.ts"],
+      "@angular-neo/neo-theme": ["libs/core/theme-lib/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
